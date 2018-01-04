@@ -19,7 +19,7 @@ git clone https://github.com/xiaocairush/linux-0.11.git
 ```
 cd linux-0.11
 ctags -R
-scope -Rbkq
+cscope -Rbkq
 ```
 
 ### 第三步：~/.vimrc中添加如下内容
