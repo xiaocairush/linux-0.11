@@ -12,6 +12,8 @@ git clone https://github.com/xiaocairush/linux-0.11.git
 
 为方便阅读代码，请安装vim, ctag, cscope, taglist。不同平台安装命令不同，暂略。
 
+参考书籍：[Linux-0.11源码完全注释](http://book.douban.com/subject/1231236/)
+
 ### 第二步：生成tags和cscope文件
 
 ```
@@ -65,6 +67,8 @@ let Tlist_Use_Right_Window=1                 " 在右侧窗口中显示
 let Tlist_File_Fold_Auto_Close=1             " 自动折叠
 ```
 
-### 参考书籍
+### 第四步：enjoy reading
 
-[Linux-0.11源码完全注释](http://book.douban.com/subject/1231236/)
+```
+vim ./init/main.c
+```
